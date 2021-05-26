@@ -22,7 +22,8 @@ class ERapport(Inkop):
             self.avdrag,
             self.anv_kod
         )
-
+    def make_report(self):
+        pass
 
 class VagJournal(ERapport):
     def __init__(self):
